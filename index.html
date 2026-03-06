@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Messenger Mini</title>
+</head>
+
+<body>
+
+<h2>Messenger Mini</h2>
+
+<input id="username" placeholder="Nhập tên của bạn">
+<button onclick="join()">Vào chat</button>
+
+<div id="chat" style="display:none">
+
+<div id="messages"></div>
+
+<input id="messageInput" placeholder="Nhập tin nhắn">
+<button onclick="sendMessage()">Gửi</button>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
